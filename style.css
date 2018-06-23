@@ -1,0 +1,44 @@
+/* header */
+.header {
+  position: fixed;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.logo {
+  color: MediumAquamarine;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navigation {
+  margin-right: 20px;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  display: inline-block;
+  padding-left: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: black;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+/* main content */
