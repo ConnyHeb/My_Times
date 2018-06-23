@@ -42,3 +42,27 @@ a {
 
 
 /* main content */
+div {
+  border: medium solid black;
+}
+
+.container {
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
