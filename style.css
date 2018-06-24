@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 /* header */
 .header {
   width: 100%;
@@ -8,7 +12,7 @@
   font-weight: bold;
   align-items: center;
   background-color: white;
-  border: thin solid black;
+  border-bottom: thin solid black;
   margin-right: 20px;
 }
 
@@ -69,8 +73,10 @@ a {
 }
 .column.small {
   width: 240px;
+  flex-direction: column;
 }
 
+/* large column */
 .picture {
   display: flex;
   font-family: Georgia;
@@ -111,4 +117,54 @@ a {
 
 .thin {
   width: 300px;
+}
+
+/* small column */
+h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bites ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 20px;
+  color: DimGray;
+}
+
+.bites li {
+  border-bottom: 1px solid black;
+}
+
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 100px;
+}
+
+#mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+  border-right: medium solid white;
+}
+
+.foot ul {
+  display: inline;
 }
